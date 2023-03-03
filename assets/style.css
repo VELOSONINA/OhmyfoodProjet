@@ -446,3 +446,84 @@ p.header-heart .fa-solid:hover {
     text-decoration: none;
     color: white;
 }
+
+
+/*****TABLETTE*****/
+
+@media screen and (min-width:768px) and (max-width: 992px){
+
+    /**HEADER**/
+
+    .arrow {
+        left: 50px;
+    }
+
+    /**SECTION FONCTIONNEMENT**/
+
+
+    .block-btn h1,
+    .bkgrd-grey h1 {
+        padding-left: 10%;
+    }
+
+    .btn-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    /**SECTION PHOTO**/
+
+    .block-photo {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-right: 0;
+    }
+
+    .cards-photo.menu img{
+        height: 323px;
+    }
+
+    /**SECTION MENU**/
+
+
+    .block-menu {
+        width: 80%;
+        text-align: center;
+        margin-top: -60px;
+        margin-bottom: 0;
+    }
+
+    .block-menu span.heart {
+        padding-right: 60px;
+    }
+
+    .block-menu span.heart i:nth-child(2) {
+        right: 62px;
+    }
+
+    .menu-content {
+        margin: auto;
+        width: 70%;
+    }
+
+
+    /**FOOTER**/
+
+    .block-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+        justify-content: center;
+        gap: 20px;
+        padding: 60px 20px;
+    }
+
+    .block-footer h2 {
+        margin: 0;
+    }
+}
+
