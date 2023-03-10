@@ -714,7 +714,7 @@ p.header-heart .fa-solid:hover {
 
      .bkgrd-grey {
         padding-top: 1px;
-        overflow-x: hidden;
+        overflow-x: scroll;
     }
 
     .block-photo {
